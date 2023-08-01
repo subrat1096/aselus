@@ -170,7 +170,7 @@ export default function Home() {
         <Row>
           {FeatureCard.map((item, index) => (
             <Col sm={6} lg={3}>
-              <Container className="m-3 mx-auto" style={{ height: "530px" }}>
+              <Container className="m-3 mx-auto" style={{ height: "545px" }}>
                 <Card
                   key={index + item.title}
                   style={{
@@ -178,12 +178,12 @@ export default function Home() {
                     background: "transparent",
                     border: "none",
                   }}
-                  className="shadow bg-body-tertiary rounded-5 "
+                  className="shadow bg-body-tertiary rounded-5 p-1"
                 >
                   <Card.Img
                     variant="top"
                     src={item.src}
-                    className="w-100 rounded-5"
+                    className="mw-100 rounded-5"
                   />
 
                   <Card.Body>
