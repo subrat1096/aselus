@@ -24,8 +24,8 @@ const Footer = () => {
           </Col>
         </Row>
         {/* footer content  */}
-        <Row className="my-3">
-          <Col sm={6} md={3}>
+        <Row className="my-3 d-flex gap-3 mb-5">
+          <Col sm={6} md={3} style={{ width: "300px" }}>
             <Container>
               <div
                 className="mx-auto"
@@ -77,7 +77,7 @@ const Footer = () => {
               </div>
             </Container>
           </Col>
-          <Col sm={6} md={3}>
+          <Col sm={6} md={3} style={{ width: "300px" }}>
             <Container>
               <div style={{ listStyle: "none" }}>
                 <p className="lead" style={{ fontFamily: "Prompt" }}>
@@ -118,7 +118,7 @@ const Footer = () => {
               </div>
             </Container>
           </Col>
-          <Col sm={6} md={3}>
+          <Col sm={6} md={3} style={{ width: "300px" }}>
             <Container>
               <div>
                 <p className="lead" style={{ fontFamily: "Prompt" }}>
@@ -142,7 +142,7 @@ const Footer = () => {
               </div>
             </Container>
           </Col>
-          <Col sm={6} md={3}>
+          <Col sm={6} md={3} style={{ width: "300px" }}>
             <Container>
               <div>
                 <p className="lead" style={{ fontFamily: "Prompt" }}>
